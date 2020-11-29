@@ -1,7 +1,7 @@
 # Overview
 The other day I needed to reverse a hexdump produced by `hexdump -C`... `xxd -r` was flagged as the way to do it, but crazily enough in its documentation it stated that it didn't actually notify the user of parse errors... in effect there was no good way of ensuring that it was processing my hexdump!  Digging around more, I didn't find a canonical way of reversing a hexdump, so I decided to prepare my own utility.
 
-The one bright spot was a script called `reverse-hexdump.sh` by Mike Fleetwood, which did the trick.  This repo is basically a repackaging of that as a tool that follows unix naming conventions, installation, etc...
+The one bright spot was a script called [`reverse-hexdump.sh`](https://github.com/mfleetwo/reverse-hexdump) by Mike Fleetwood, which did the trick.  This repo is basically a repackaging of that as a tool that follows unix naming conventions, installation, etc...
 
 Maybe one day it will become more than what it is, but at present, all the core intellectual credit for this tool's functionality goes to Mike.  Thanks!
 
